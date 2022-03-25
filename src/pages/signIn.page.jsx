@@ -11,7 +11,6 @@ const SignIn = function (props) {
   const login = (e) => {
     e.preventDefault();
     const usersArr = JSON.parse(localStorage.getItem("users"));
-    const { login, password } = user;
     const loggedIn = usersArr.find(
       ({ login, password }) =>
         login === user.login && password === user.password
