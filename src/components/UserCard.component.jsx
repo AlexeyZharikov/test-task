@@ -22,16 +22,16 @@ const UserCard = (props) => {
           ml={1}
         />
         <CardContent style={{ textAlign: "left" }}>
-          <Typography variant="body2" sx={{ fontSize: 15 }} color="text.secondary" component="div">
+          <Typography variant="body2" sx={{ fontSize: 15 }} color="#000" component="div">
             User id: {props.user.id}
           </Typography>
           <Typography variant="body2" sx={{ fontSize: 15 }} color="#000" gutterBottom>
             login: {props.user.login}
           </Typography>
-          <Typography variant="body2" sx={{ fontSize: 15 }} color="text.secondary" gutterBottom>
+          <Typography variant="body2" sx={{ fontSize: 15 }} color="#000" gutterBottom>
             password: {props.user.password}
           </Typography>
-          <Typography variant="body2" sx={{ fontSize: 15 }} color="text.secondary" gutterBottom>
+          <Typography variant="body2" sx={{ fontSize: 15 }} color="#000" gutterBottom>
             user age: {props.user.age} 
           </Typography>
           <div className="buttons">
