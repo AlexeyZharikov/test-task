@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import UserList from './components/UserList.component';
 import { SignUp } from './pages/signUp.page';
 import SignIn from './pages/signIn.page';
 import Users from './pages/users.page';
