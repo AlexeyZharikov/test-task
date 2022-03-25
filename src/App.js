@@ -8,7 +8,7 @@ import Users from './pages/users.page';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/app">  
+      <BrowserRouter basename={process.env.PUBLIC_URL}>  
         <Routes>
           <Route path="/" element={<SignUp/>} />
           <Route path="/login" element={<SignIn/>} />
